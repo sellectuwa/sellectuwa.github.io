@@ -21,21 +21,30 @@ body {
 }
 
 h1.header{
-    font-size: 6vh;
-    margin: 400px 0 0 0;
+    font-size: 10vh;
+    margin: 35vh 0 0 0;
+    padding: 0;
     animation: slideIn 1.4s ease, ease-in 0.8s;
+}
+h1.header:hover{
+    text-shadow:5px 5px rgba(255, 255, 255, 0.5);
 }
 
 h2.header{
-    font-size: 2vh;
-    margin: 5px;
+    font-size: 2.25vh;
+    margin: 5vh 0 0 0;
     font-weight: 400;
     font-style: italic;
     animation: slideIn 1.6s ease, ease-in 1s;
 }
 
+h2.header:hover {
+    text-shadow:2px 2px rgba(255, 255, 255, 0.5);
+}
+
 .social-media {
-    font-size: 2.2vh;
+    margin-top: 12px;
+    font-size: 2.8vh;
     animation: slideIn 1.8s ease, ease-in 1.2s;
 }
 
